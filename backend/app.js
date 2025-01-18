@@ -43,7 +43,7 @@ app.use((error, req, res, next) => {
 
 // Database connection
 const MONGO_URI =
-  "mongodb+srv://davidpopusoi52:nVwEbocFsE6br0XI@maincluster.i2wtz.mongodb.net/?retryWrites=true&w=majority&appName=MainCluster";
+  "mongodb+srv://@maincluster.i2wtz.mongodb.net/?retryWrites=true&w=majority&appName=MainCluster";
 
 mongoose
   .connect(MONGO_URI, {
